@@ -8,7 +8,7 @@ int main()
     int m = 4;
     int n = 4;
     int find_err = 0;
-    unsigned int failcode = 17;
+    unsigned int failcode = 15;
     // unsigned int test_num = 1;
     unsigned int test_num = pow(2, m + n - 1);
     int *err_list = (int *)malloc(sizeof(int) * n);
